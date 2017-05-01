@@ -21,14 +21,14 @@ public class Main{
             System.out.println(e);
         }
     
-    
+    //RANDOM COMMENT 1
     }
     
     public static void compruebaJDBC(){
         try{
             Class.forName("com.mysql.jdbc.Driver").newInstance();
         }catch(Exception e){
-            System.out.println(e);
+            System.out.println(e);//Random comment 2
         }
         System.out.println("El programa ha encontrado el JDBC");
     }
